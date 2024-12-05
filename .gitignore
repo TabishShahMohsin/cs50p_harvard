@@ -1,0 +1,78 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Image files
+*.jpeg
+*.jpg
+*.png
+*.gif
+*.tiff
+*.bmp
+*.svg
+*.ico
+
+# Video files
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+
+# Audio files
+*.mp3
+*.wav
+*.ogg
+*.flac
+
+# Document files
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+*.csv
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled files
+*.class
+*.o
+*.out
+*.so
+*.a
+*.d
+*.exe
+*.dll
+*.jar
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js-specific files
+node_modules/
+npm-debug.log
