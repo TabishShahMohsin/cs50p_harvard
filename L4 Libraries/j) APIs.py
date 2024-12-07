@@ -14,7 +14,7 @@
 # Eg: https://itunes.apple.com/search?entity=song&limit=1&term=weezer
     # Can manually construct this by using the documentatin for apple's API
     #search? identifies that we are seeking to search
-    #entity=song implies that we are looking for a song(not an album/playlist)
+    #entity=song implies that we are looking for a song(not an albulm/playlist)
     #limit=1 asks it to retrieve info about a single song.
     # term=weezer means pipoints the band
     # If we go to that website and open the file
@@ -34,15 +34,15 @@ import json
 if len(sys.argv)!=2:
     sys.exit()  # Keeping it simple for now
 response=requests.get("https://itunes.apple.com/search?entity=song&limit=1&term=" + sys.argv[1])
-print(response.json()) #python request library converts the json file reutrned by apple into a dictionary
+print(response.json()) #python request library converts the json file returned by apple into a dictionary
 # This is ugly and unreadable
 print("\n"*7)
 y=json.dumps(response.json(), indent=2)
-print(y, "\n"*7)
-print(response.json()["results"][0]["trackName"])
-# indent will make easier to understand
+# Indent will make easier to understand
 # Usign dumps() for pretty printing
 #dumping a string => dumps()
+print(y, "\n"*7)
+print(response.json()["results"][0]["trackName"])
 # You can try to understand the json file by this
     # Track the brackets
     # Then, backtrack it, and understand how to point to the required data

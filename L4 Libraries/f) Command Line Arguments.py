@@ -1,4 +1,5 @@
 import sys
+# The first element would be the name of the file
 # Run the program by python3 6\ Command\ Line\ Arguments.py  Tabish
 # The argv[0]=6 Command Line Arguments.py, can be used for debugging
 # The argv[1]= Tabish
