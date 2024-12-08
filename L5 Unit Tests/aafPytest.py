@@ -10,6 +10,7 @@ def test_negative():
     assert square(-1)==1
 def test_zero():
     assert square(0)==0
+    
 # Can also check for errors to work as expected
 def test_str():
     with pytest.raises(TypeError):

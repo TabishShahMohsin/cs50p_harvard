@@ -13,4 +13,4 @@ import sys
 import cowsay
 if len(sys.argv)==2:
     cowsay.cow("Hello, ", sys.argv[1])
-    #fortunately, using + (not comma) will print the cow
+    #fortunately, using , instaead of + doesn't display the cow
