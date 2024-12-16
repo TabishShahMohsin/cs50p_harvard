@@ -7,6 +7,9 @@ with open("With.txt", "r") as something:
     something.seek(0)
     # Puts the cursor to the very beginning
     
+    
+    
+    # The second approach is bad as it first reads every line then itterates over them
     lines=something.readlines()
 for line in lines:
     print(f"{line}", end="")
