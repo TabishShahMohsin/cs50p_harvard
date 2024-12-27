@@ -6,6 +6,7 @@ class Student:
         # To initialize the contents of a class
         if not Name:
         # more pythonic way than Name==""
+            # This works with empty list, string, etc.
            raise ValueError("Missing Name") 
            #Python allows display errors on your own
            # So to use try and error later in the program

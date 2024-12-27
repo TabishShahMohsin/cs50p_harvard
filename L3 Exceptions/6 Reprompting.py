@@ -9,11 +9,7 @@ while True:
     except ValueError:
         print("MUST ENTER AN INTEGER!!")
     else:
+        y=int(input("Enter num or  face ValueError, the choice is yours: "))
         #Remember that this block is executed iff the try is sucessful
         break
 print(f"The value entered is {x}")
-'''
-You can skip using the else block and instead write all code that follows the try statement directly within the try block itself.
-This approach will work functionally, as the try block will handle any exceptions, and anything that comes after will execute only if no exception occurs.
-But else improves readibility and avoids accidental exception masking
-'''

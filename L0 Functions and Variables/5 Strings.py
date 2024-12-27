@@ -14,3 +14,5 @@ print(input("Enter your name: ").strip().title())
 #can use lsrtip() and rstrip() seperately as well
 a, b=name.split(" ")
 print(a)
+
+#print(f"{n:02}") to add trailing zeros to make it to digit

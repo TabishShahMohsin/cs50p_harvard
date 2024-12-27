@@ -12,10 +12,10 @@ if re.search(r"^[\w]+@[a-z0-9_A-Z]+\.(com|gov|edu|in)$", email):
     # You can use /w for alphanumeric and _ or a-z0-9_A-Z
     # Better to use raw string for regular expressinos all the time
     # this argument ".+@.+" will be read from left to right, and then email will be compared to this fromat
-    # It would use finite state machine to compare
-    # It will first`` iterate at first .+ then at the occurance of @
-        # It will shift to the condition after the @ symbol and then perform the rest of the iterations
-        # If it arrives at an accept state(final state), then indeed it was a valid email address
+        # It would use finite state machine to compare
+        # It will first iterate at first .+ then at the occurance of @
+            # Then it will shift to the condition after the @ symbol and then perform the rest of the iterations
+            # If it arrives at an accept state(final state), then indeed it was a valid email address
     # Can't use .edu directly (A corner case), can be solved using special sequence \. and telling python that it's a raw string
     # You want the data entries to follow strict email rules
         #if not then when u use them your program will break
@@ -43,7 +43,7 @@ O or more repetitions (no or any number of characters)
 m repetitions (m characters)
 
 {m, n}
-m-n repetitions (range of m to n characters)
+m to n repetitions (range of m to n characters)
 
 ^
 matches the start of the string
@@ -83,5 +83,8 @@ a group
 
 (?:...)
 non-capturing version
+
+\b
+
 
 '''

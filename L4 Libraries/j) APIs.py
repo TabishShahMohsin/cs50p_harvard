@@ -17,7 +17,7 @@
     #entity=song implies that we are looking for a song(not an albulm/playlist)
     #limit=1 asks it to retrieve info about a single song.
     # term=weezer means pipoints the band
-    # If we go to that website and open the file
+    # If we wer to go to that website and open the file
         # The file is written in JavaScipt Object Notation(JSON)
         # Though it's related to JavaScript
         # Nowadays, it's used as a language agnostic format for data exchange

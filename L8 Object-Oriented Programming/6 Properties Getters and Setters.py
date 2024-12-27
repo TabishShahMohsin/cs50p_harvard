@@ -22,7 +22,10 @@ class Students:
     def __str__(self):
         return f"{self.name} is from {self.house}"
     
+    
+    # Getter must be used before setter
     # Getter
+    
     @property
     def house(self):
         #print("THE PROPERTY PART IS WORKING")
@@ -71,3 +74,5 @@ def main():
 
 if __name__=="__main__":
     main()
+    
+# cant use Jar(5).deposit(3) may not return you a jar type

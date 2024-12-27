@@ -15,7 +15,7 @@ if re.search(r"^(\w|\.)+@([\w]+\.)*[\w]+\.com$", email, re.IGNORECASE):
     '''
     The actual experssion at google:
     ^[a-zA-Z0-9.!#$%&'*+\/=?^_`|}~-]+@[a-zA-Z0-9](?:[a-zA{ -Z0-9-]{0,61}[a-zA-Z0-9])?( ?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$
-    Obviously, should use some lib even to verify emial
+    Obviously, we should use some lib even to verify email
     '''
     
     print("VAlID")

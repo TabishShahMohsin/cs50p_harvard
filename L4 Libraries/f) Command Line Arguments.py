@@ -1,11 +1,11 @@
 import sys
 # The first element would be the name of the file
-# Run the program by python3 6\ Command\ Line\ Arguments.py  Tabish
-# The argv[0]=6 Command Line Arguments.py, can be used for debugging
+# Run the program by python3 f\)\ Command\ Line\ Arguments.py  Tabish
+# The argv[0]=f) Command Line Arguments.py, can be used for debugging
 # The argv[1]= Tabish
 # docs.python.org/3/library/sys.html
 # Giving inputs directly from command line.
-#sys.argv(): argument vector
+#sys.argv: argument vector
     #somehow simply contains all the words that were typed in the prpompt
     #it returns a list with 1st element being the fist word and so on
 if len(sys.argv)==2:

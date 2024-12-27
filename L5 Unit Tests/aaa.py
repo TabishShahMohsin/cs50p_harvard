@@ -1,4 +1,4 @@
-# Best way to keep testing your code again and again is by writing your own code
+# Best way to keep testing your code again and again is by writing your own code to test it
 # Great for testing corner cases again and again
 
 def main():

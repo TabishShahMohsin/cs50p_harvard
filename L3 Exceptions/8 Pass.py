@@ -7,6 +7,8 @@ def get_int():
         try:
             return int(input("Enter a Number: "))
         except ValueError:
-            pass # Ignoring the user's mistake
+            ...
+            # or use pass
+            # # Ignoring the user's mistake
                 # But still ensures that the only ignored error is ValueError
 main()

@@ -10,6 +10,8 @@ class Dice:
     # A method is by defualt an instant method, untill classmethod is mentioned
     def NUM(cls, name):
         # we write cls as class is a keyword
+        # But can write anything in place of cls
+        # Varible represented by cls, is like an instance of the class
         print(name, "should play", random.choice(cls.number), "move(s).")
         
 #something=Dice()

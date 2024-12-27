@@ -24,3 +24,9 @@ for i in o["results"]:
 #     #iterates through o["results"][i]
 #     print(something["trackName"])
 #     #prints o["results"][i]["trackName"]
+
+
+
+print("\n"*7)
+print(f"response: {type(response)}")
+print(f"o: {type(o)}")

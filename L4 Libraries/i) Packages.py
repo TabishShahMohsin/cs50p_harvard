@@ -2,7 +2,7 @@
 # Module implemented in a folder and not a file
 # Makes python much more powerful
 # Can get some in PyPI website
-#P ython Package Index
+# Python Package Index
 # pypi.org can get it through command-line and browser
 # Eg: pypi.org/project/cowsay
 # Either get it by website, unzip it , get it in right place and use it.
