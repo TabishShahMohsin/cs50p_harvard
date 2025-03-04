@@ -1,4 +1,4 @@
-# Python figures out the type of the bariable itself unlike c++. java, c, etc.
+# Python figures out the type of the variable itself unlike c++. java, c, etc.
     # It's dynamicslly typed languge
     # Better for usage but not for bug detection
 # Tool to check that the variables are storing the intended variable types
@@ -12,8 +12,11 @@ def main():
     number : int = input("Enter a number: ")
     meaows : str = meow(number)
     meow(number)
+    #bug : int = "Something unintended"
 
 if __name__=="__main__":
     main()
 
 # Use mypy filename.py to check the types of variables
+# May require to run mypy 6_type_hints.py --check-untyped-defs
+
