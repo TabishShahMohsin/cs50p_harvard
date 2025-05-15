@@ -1,6 +1,6 @@
 with open("With.txt", "r") as something:
     #Stores all lines as list
-#  (More pythonic way):
+    #(More pythonic way):
     for a in something:
         print(a, end="")
     #Or use this: 

@@ -10,6 +10,7 @@ something=random.shuffle(l)
 #Eg: to shuffle a deck of cards
 print(something)
 #It's DOCUMENTATION tells us that it returns none, but shuffles the list passed to it.
+    # Like most of the functions relating to mutable data-types, like sort(), etc.
 for name in l:
     print(name)
     
